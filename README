@@ -6,3 +6,9 @@
 3. PUT - Обновление текущего мема.
 4. DELETE - удаление мема с БД.
 5. (дополонительное) DOWNLOAD - картинки с бд.
+
+
+Запуск приложения.
+1). python3 -m venv venv
+2). pip install -r requirements.txt
+3). uvicorn app:app --host localhost --port 8000 --reload 
